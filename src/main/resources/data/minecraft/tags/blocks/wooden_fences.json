@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "fcstonefences:stone_brick_acacia_fence",
+    "fcstonefences:stone_brick_dark_oak_fence",
+    "fcstonefences:stone_brick_jungle_fence",
+    "fcstonefences:stone_brick_oak_fence",
+    "fcstonefences:stone_brick_birch_fence",
+    "fcstonefences:stone_brick_spruce_fence",
+    "fcstonefences:stone_brick_crimson_fence",
+    "fcstonefences:stone_brick_warped_fence",
+    "fcstonefences:stone_brick_mangrove_fence",
+    "fcstonefences:mossy_stone_brick_acacia_fence",
+    "fcstonefences:mossy_stone_brick_dark_oak_fence",
+    "fcstonefences:mossy_stone_brick_jungle_fence",
+    "fcstonefences:mossy_stone_brick_oak_fence",
+    "fcstonefences:mossy_stone_brick_birch_fence",
+    "fcstonefences:mossy_stone_brick_spruce_fence",
+    "fcstonefences:mossy_stone_brick_crimson_fence",
+    "fcstonefences:mossy_stone_brick_warped_fence",
+    "fcstonefences:mossy_stone_brick_mangrove_fence"
+  ]
+}
