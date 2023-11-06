@@ -35,5 +35,7 @@
   "block.fcstonefences.mossy_cobblestone_spruce_fence": "Mossy Cobblestone Spruce Fence",
   "block.fcstonefences.mossy_cobblestone_warped_fence": "Mossy Cobblestone Warped Fence",
   "block.fcstonefences.mossy_cobblestone_crimson_fence": "Mossy Cobblestone Crimson Fence",
-  "block.fcstonefences.mossy_cobblestone_mangrove_fence": "Mossy Cobblestone Mangrove Fence"
+  "block.fcstonefences.mossy_cobblestone_mangrove_fence": "Mossy Cobblestone Mangrove Fence",
+
+  "creativetab.stone_fences": "Stone Fences"
 }
