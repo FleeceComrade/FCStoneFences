@@ -18,6 +18,25 @@
     "fcstonefences:mossy_stone_brick_spruce_fence",
     "fcstonefences:mossy_stone_brick_crimson_fence",
     "fcstonefences:mossy_stone_brick_warped_fence",
-    "fcstonefences:mossy_stone_brick_mangrove_fence"
+    "fcstonefences:mossy_stone_brick_mangrove_fence",
+
+    "fcstonefences:cobblestone_acacia_fence",
+    "fcstonefences:cobblestone_dark_oak_fence",
+    "fcstonefences:cobblestone_jungle_fence",
+    "fcstonefences:cobblestone_oak_fence",
+    "fcstonefences:cobblestone_birch_fence",
+    "fcstonefences:cobblestone_spruce_fence",
+    "fcstonefences:cobblestone_crimson_fence",
+    "fcstonefences:cobblestone_warped_fence",
+    "fcstonefences:cobblestone_mangrove_fence",
+    "fcstonefences:mossy_cobblestone_acacia_fence",
+    "fcstonefences:mossy_cobblestone_dark_oak_fence",
+    "fcstonefences:mossy_cobblestone_jungle_fence",
+    "fcstonefences:mossy_cobblestone_oak_fence",
+    "fcstonefences:mossy_cobblestone_birch_fence",
+    "fcstonefences:mossy_cobblestone_spruce_fence",
+    "fcstonefences:mossy_cobblestone_crimson_fence",
+    "fcstonefences:mossy_cobblestone_warped_fence",
+    "fcstonefences:mossy_cobblestone_mangrove_fence"
   ]
 }

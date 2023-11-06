@@ -81,7 +81,65 @@ public class ModBlocks {
             () -> new FenceBlock(BlockBehaviour.Properties.of(Material.STONE).
                     strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.STONE_FENCES_TAB);
 
-    //Missing Recipes, plz make them bfor continuing
+
+    //..............Cobblestone Posts...................
+    public static final RegistryObject<Block> Cobblestone_Acacia_Fence = registerBlock("cobblestone_acacia_fence",
+            () -> new FenceBlock(BlockBehaviour.Properties.of(Material.STONE).
+                    strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.STONE_FENCES_TAB);
+    public static final RegistryObject<Block> Cobblestone_Dark_Oak_Fence = registerBlock("cobblestone_dark_oak_fence",
+            () -> new FenceBlock(BlockBehaviour.Properties.of(Material.STONE).
+                    strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.STONE_FENCES_TAB);
+    public static final RegistryObject<Block> Cobblestone_Jungle_Fence = registerBlock("cobblestone_jungle_fence",
+            () -> new FenceBlock(BlockBehaviour.Properties.of(Material.STONE).
+                    strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.STONE_FENCES_TAB);
+    public static final RegistryObject<Block> Cobblestone_Oak_Fence = registerBlock("cobblestone_oak_fence",
+            () -> new FenceBlock(BlockBehaviour.Properties.of(Material.STONE).
+                    strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.STONE_FENCES_TAB);
+    public static final RegistryObject<Block> Cobblestone_Birch_Fence = registerBlock("cobblestone_birch_fence",
+            () -> new FenceBlock(BlockBehaviour.Properties.of(Material.STONE).
+                    strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.STONE_FENCES_TAB);
+    public static final RegistryObject<Block> Cobblestone_Spruce_Fence = registerBlock("cobblestone_spruce_fence",
+            () -> new FenceBlock(BlockBehaviour.Properties.of(Material.STONE).
+                    strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.STONE_FENCES_TAB);
+    public static final RegistryObject<Block> Cobblestone_Mangrove_Fence = registerBlock("cobblestone_mangrove_fence",
+            () -> new FenceBlock(BlockBehaviour.Properties.of(Material.STONE).
+                    strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.STONE_FENCES_TAB);
+    public static final RegistryObject<Block> Cobblestone_Crimson_Fence = registerBlock("cobblestone_crimson_fence",
+            () -> new FenceBlock(BlockBehaviour.Properties.of(Material.STONE).
+                    strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.STONE_FENCES_TAB);
+    public static final RegistryObject<Block> Cobblestone_Warped_Fence = registerBlock("cobblestone_warped_fence",
+            () -> new FenceBlock(BlockBehaviour.Properties.of(Material.STONE).
+                    strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.STONE_FENCES_TAB);
+
+    //............Mossy Cobblestone Posts.................
+    public static final RegistryObject<Block> Mossy_Cobblestone_Acacia_Fence = registerBlock("mossy_cobblestone_acacia_fence",
+            () -> new FenceBlock(BlockBehaviour.Properties.of(Material.STONE).
+                    strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.STONE_FENCES_TAB);
+    public static final RegistryObject<Block> Mossy_Cobblestone_Dark_Oak_Fence = registerBlock("mossy_cobblestone_dark_oak_fence",
+            () -> new FenceBlock(BlockBehaviour.Properties.of(Material.STONE).
+                    strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.STONE_FENCES_TAB);
+    public static final RegistryObject<Block> Mossy_Cobblestone_Jungle_Fence = registerBlock("mossy_cobblestone_jungle_fence",
+            () -> new FenceBlock(BlockBehaviour.Properties.of(Material.STONE).
+                    strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.STONE_FENCES_TAB);
+    public static final RegistryObject<Block> Mossy_Cobblestone_Oak_Fence = registerBlock("mossy_cobblestone_oak_fence",
+            () -> new FenceBlock(BlockBehaviour.Properties.of(Material.STONE).
+                    strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.STONE_FENCES_TAB);
+    public static final RegistryObject<Block> Mossy_Cobblestone_Birch_Fence = registerBlock("mossy_cobblestone_birch_fence",
+            () -> new FenceBlock(BlockBehaviour.Properties.of(Material.STONE).
+                    strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.STONE_FENCES_TAB);
+    public static final RegistryObject<Block> Mossy_Cobblestone_Spruce_Fence = registerBlock("mossy_cobblestone_spruce_fence",
+            () -> new FenceBlock(BlockBehaviour.Properties.of(Material.STONE).
+                    strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.STONE_FENCES_TAB);
+    public static final RegistryObject<Block> Mossy_Cobblestone_Mangrove_Fence = registerBlock("mossy_cobblestone_mangrove_fence",
+            () -> new FenceBlock(BlockBehaviour.Properties.of(Material.STONE).
+                    strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.STONE_FENCES_TAB);
+    public static final RegistryObject<Block> Mossy_Cobblestone_Crimson_Fence = registerBlock("mossy_cobblestone_crimson_fence",
+            () -> new FenceBlock(BlockBehaviour.Properties.of(Material.STONE).
+                    strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.STONE_FENCES_TAB);
+    public static final RegistryObject<Block> Mossy_Cobblestone_Warped_Fence = registerBlock("mossy_cobblestone_warped_fence",
+            () -> new FenceBlock(BlockBehaviour.Properties.of(Material.STONE).
+                    strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.STONE_FENCES_TAB);
+
 
 
     private static<T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab){
