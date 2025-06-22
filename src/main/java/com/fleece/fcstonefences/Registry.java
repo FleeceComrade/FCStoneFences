@@ -20,7 +20,6 @@ import static com.fleece.fcstonefences.FCStoneFences.STONE_FENCES_TAB;
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, modid = MODID)
 public class Registry {
     private static final String[] STONE_TYPES = {
-            "fooble",
             "cobblestone",
             "stone_brick",
             "mossy_cobblestone",

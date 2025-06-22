@@ -26,6 +26,7 @@ if "%OS%"=="Windows_NT" setlocal
 
 set DIRNAME=%~dp0
 if "%DIRNAME%"=="" set DIRNAME=.
+@rem This is normally unused
 set APP_BASE_NAME=%~n0
 set APP_HOME=%DIRNAME%
 
@@ -51,7 +52,7 @@ echo location of your Java installation.
 goto fail
 
 :findJavaFromJavaHome
-set JAVA_HOME=C:\Program Files\Eclipse Adoptium\jdk-21.0.6.7-hotspot
+set JAVA_HOME=%JAVA_HOME:"=%
 set JAVA_EXE=%JAVA_HOME%/bin/java.exe
 
 if exist "%JAVA_EXE%" goto execute
