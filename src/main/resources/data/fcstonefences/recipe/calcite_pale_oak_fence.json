@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_fence",
+  "key": {
+    "█": "minecraft:calcite",
+    "═": "minecraft:pale_oak_planks"
+  },
+  "pattern": [
+    "█═█",
+    "█═█"
+  ],
+  "result": {
+    "count": 6,
+    "id": "fcstonefences:calcite_pale_oak_fence"
+  }
+}

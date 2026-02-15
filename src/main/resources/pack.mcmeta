@@ -1,8 +1,10 @@
 {
-    "pack": {
-        "description": "FC's Stone Fence's Resources",
-        "pack_format": 9,
-        "forge:resource_pack_format": 9,
-        "forge:data_pack_format": 10
-    }
+  "pack": {
+    "description": "${mod_id} resources",
+    "max_format": 94,
+    "min_format": [
+      94,
+      1
+    ]
+  }
 }

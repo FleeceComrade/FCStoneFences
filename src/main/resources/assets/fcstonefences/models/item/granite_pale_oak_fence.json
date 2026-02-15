@@ -1,0 +1,7 @@
+{
+  "parent": "fcstonefences:block/stone_fence_inventory",
+  "textures": {
+    "texture": "minecraft:block/granite",
+    "bar": "minecraft:block/pale_oak_planks"
+  }
+}

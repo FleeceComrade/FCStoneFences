@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_fence",
+  "key": {
+    "█": "minecraft:mud_bricks",
+    "═": "minecraft:bamboo_planks"
+  },
+  "pattern": [
+    "█═█",
+    "█═█"
+  ],
+  "result": {
+    "count": 6,
+    "id": "fcstonefences:mud_brick_bamboo_fence"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_fence",
+  "key": {
+    "█": "minecraft:red_nether_bricks",
+    "═": "minecraft:birch_planks"
+  },
+  "pattern": [
+    "█═█",
+    "█═█"
+  ],
+  "result": {
+    "count": 6,
+    "id": "fcstonefences:red_nether_brick_birch_fence"
+  }
+}

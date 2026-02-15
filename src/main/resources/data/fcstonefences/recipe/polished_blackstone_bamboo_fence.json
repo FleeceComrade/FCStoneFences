@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_fence",
+  "key": {
+    "█": "minecraft:polished_blackstone",
+    "═": "minecraft:bamboo_planks"
+  },
+  "pattern": [
+    "█═█",
+    "█═█"
+  ],
+  "result": {
+    "count": 6,
+    "id": "fcstonefences:polished_blackstone_bamboo_fence"
+  }
+}

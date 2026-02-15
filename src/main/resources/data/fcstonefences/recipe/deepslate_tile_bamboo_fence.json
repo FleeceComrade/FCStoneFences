@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_fence",
+  "key": {
+    "█": "minecraft:deepslate_tile",
+    "═": "minecraft:bamboo_planks"
+  },
+  "pattern": [
+    "█═█",
+    "█═█"
+  ],
+  "result": {
+    "count": 6,
+    "id": "fcstonefences:deepslate_tile_bamboo_fence"
+  }
+}
