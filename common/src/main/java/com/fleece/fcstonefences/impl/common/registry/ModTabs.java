@@ -1,5 +1,7 @@
 package com.fleece.fcstonefences.impl.common.registry;
 
+import com.fleece.fcstonefences.Constants;
+import com.fleece.fcstonefences.FCStoneFences;
 import com.fleece.fcstonefences.platform.Services;
 import java.util.function.BiConsumer;
 import net.minecraft.network.chat.Component;
@@ -32,5 +34,7 @@ public class ModTabs {
           ModBlocks.ID_BY_BLOCK.keySet().forEach(output::accept);
         })
         .build();
+
+    consumer.accept(FC_STONE_FENCES, FCStoneFences.id(Constants.MOD_ID));
   }
 }
