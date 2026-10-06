@@ -31,6 +31,7 @@ public class ModBlocks {
 
         ResourceLocation id = FCStoneFences.id(stone.name().toLowerCase() + "_" + wood.name().toLowerCase() + "_fence");
         Block fence = new FenceBlock(BlockBehaviour.Properties.of().strength(1.5f, 6f).requiresCorrectToolForDrops());
+        ID_BY_BLOCK.put(fence, id);
         consumer.accept(fence, id);
       }
     }
