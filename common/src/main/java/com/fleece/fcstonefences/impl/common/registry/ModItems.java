@@ -2,6 +2,7 @@ package com.fleece.fcstonefences.impl.common.registry;
 
 import java.util.function.BiConsumer;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 
 public class ModItems {
@@ -14,5 +15,9 @@ public class ModItems {
 
   public static void register(BiConsumer<Item, ResourceLocation> consumer) {
 
+    ModBlocks.ID_BY_BLOCK.forEach((block, id) -> {
+
+      consumer.accept(new BlockItem(block, new Item.Properties()), id);
+    });
   }
 }
