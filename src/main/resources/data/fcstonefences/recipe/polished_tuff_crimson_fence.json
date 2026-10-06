@@ -1,0 +1,20 @@
+﻿{
+    "type":  "minecraft:crafting_shaped",
+    "group":  "wooden_fence",
+    "key":  {
+                "â–ˆ":  {
+                            "item":  "minecraft:polished_tuff"
+                        },
+                "â•":  {
+                            "item":  "minecraft:crimson_planks"
+                        }
+            },
+    "pattern":  [
+                    "â–ˆâ•â–ˆ",
+                    "â–ˆâ•â–ˆ"
+                ],
+    "result":  {
+                   "count":  6,
+                   "id":  "fcstonefences:polished_tuff_crimson_fence"
+               }
+}

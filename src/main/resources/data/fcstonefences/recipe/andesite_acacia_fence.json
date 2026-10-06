@@ -1,0 +1,20 @@
+﻿{
+    "type":  "minecraft:crafting_shaped",
+    "group":  "wooden_fence",
+    "key":  {
+                "â–ˆ":  {
+                            "item":  "minecraft:andesite"
+                        },
+                "â•":  {
+                            "item":  "minecraft:acacia_planks"
+                        }
+            },
+    "pattern":  [
+                    "â–ˆâ•â–ˆ",
+                    "â–ˆâ•â–ˆ"
+                ],
+    "result":  {
+                   "count":  6,
+                   "id":  "fcstonefences:andesite_acacia_fence"
+               }
+}
