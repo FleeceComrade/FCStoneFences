@@ -8,8 +8,9 @@
     "${mod_author}"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/FleeceComrade/FCStoneFences",
+    "sources": "https://github.com/FleeceComrade/FCStoneFences",
+    "issues": "https://github.com/FleeceComrade/FCStoneFences/issues"
   },
   "license": "${license}",
   "icon": "${mod_id}.png",

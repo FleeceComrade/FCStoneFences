@@ -9,31 +9,24 @@ import net.minecraft.core.Registry;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraftforge.eventbus.api.IEventBus;
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import net.minecraftforge.registries.RegisterEvent;
+import net.neoforged.bus.api.IEventBus;
+import net.neoforged.fml.common.Mod;
+import net.neoforged.neoforge.registries.RegisterEvent;
 
 @Mod(Constants.MOD_ID)
-public class FCStoneFencesForge {
+public class FCStoneFencesNeoForge {
 
   public static IEventBus EVENT_BUS;
 
-  public FCStoneFencesForge(FMLJavaModLoadingContext context) {
+  public FCStoneFencesNeoForge(IEventBus modEventBus) {
 
-    EVENT_BUS = context.getModEventBus();
+    EVENT_BUS = modEventBus;
 
     FCStoneFences.init();
 
     bind(Registries.BLOCK, ModBlocks::register);
     bind(Registries.ITEM, ModItems::register);
     bind(Registries.CREATIVE_MODE_TAB, ModTabs::register);
-  }
-
-  /// @deprecated but old versions don't know about the new constructor yet :))))
-  @SuppressWarnings("removal")
-  public FCStoneFencesForge() {
-    this(FMLJavaModLoadingContext.get());
   }
 
   public <T> void bind(ResourceKey<Registry<T>> registryKey, Consumer<BiConsumer<T, ResourceLocation>> source) {
